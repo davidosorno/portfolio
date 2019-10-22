@@ -7,7 +7,7 @@ import { ContactmeComponent } from './contactme/contactme.component';
 
 const routes: Routes = [
   { path: '', component: AboutmeComponent },
-  { path: 'portfolio', component: PortfolioComponent },
+  { path: 'projects', component: PortfolioComponent },
   { path: 'contactme', component: ContactmeComponent },
   // redirect to /alpha if there is nothing in the url
   { path: '', pathMatch: 'full', redirectTo: ''},
