@@ -1,0 +1,59 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+p{
+    min-width: 200px; 
+    /* outline: 2px solid red; */
+    padding: 15px;
+
+}
+
+a, a:active, a::after{
+    color: darkblue;
+    text-decoration: none;
+}
+
+#linkedin{
+    width: 50px;
+    display: inline-block;
+}
+
+img{
+    position: relative;
+    top: 18px;
+    left: -5px;
+}
+
+p{
+    position: relative;
+    top: -20px;
+}
+
+@media only screen and (max-width: 480px)
+{
+    /* a{
+        display: inline-block;
+        vertical-align: top;
+        text-decoration: none;
+        color: rgb(53, 53, 53);
+        margin: 10px;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 12px;
+    }
+    
+    a:hover{
+        color: black;
+        font-weight: bold;
+    }
+
+    div{
+        width: 100%;
+    }
+    
+    img{
+        width: 100%;
+    }    */
+}
