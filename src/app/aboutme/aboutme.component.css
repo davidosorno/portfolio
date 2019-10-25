@@ -45,10 +45,10 @@
 @media only screen and (min-width: 1024px)
 {
     #img-aboutme{
-        width: 30%;
+        width: 22%;
         display: inline-block;
         vertical-align: top;
-         margin: 20px 5%;
+        margin: 20px 5%;
     }
     
     #text-aboutme{
@@ -58,8 +58,8 @@
         margin: 15% 0;
     }
 
-    img{
+    /* img{
         width: 70%;
         margin: 0 10%;
-    }
+    } */
 }

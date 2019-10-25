@@ -2,6 +2,12 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#portfolio{
+    overflow: visible;
+    overflow-y: scroll;
+    height: 850px;
+}
+
 .div-img{
     width: 400px;
     height: 400px;
@@ -41,7 +47,7 @@
 .overlay{
     width: 400px;
     height: 400px;
-    position: absolute;
+    position: relative;
     /* background:linear-gradient(90deg, 
         rgba(70, 70, 70, 0.156),
         rgba(70, 70, 70, 0.356),
@@ -66,8 +72,8 @@
 .text{
     width: 150px;
     height: 300px;
-    position: absolute;
-    margin: -350px 30px;
+    position: relative;
+    margin: -360px 30px;
     opacity: 0;
     transition: all 500ms ease-in-out;
     -webkit-transition: all 500ms ease-in-out;
@@ -97,6 +103,11 @@
     div{
         margin: 10px 0;
     }
+
+    #portfolio{
+        width: 99%;
+        margin: 30px 0px;
+    }
 }
 
 
@@ -112,6 +123,10 @@
 
     div{
         margin: 20px 15%;
+    }
+
+    #portfolio{
+        width: 85%;
     }
 }
 
@@ -129,7 +144,7 @@
     div{
         display: inline-block;
         vertical-align: top;
-        margin: 0 20px;
+        margin: 0 50px;
         padding: 20px;
     }
 
@@ -137,5 +152,8 @@
         width: 385px;
         height: 360px;
     }
-}
 
+    #portfolio{
+        width: 95%;
+    }
+}

@@ -4,8 +4,8 @@
     text-align: center;
     position: fixed;
     background-color: white;
-    width: 100%;
-    top: -5px;
+    width: 95%;
+    top: -1px;
     z-index: 1;
     padding: 10px;
 }
@@ -30,7 +30,6 @@ a{
 @media only screen and (min-width: 481px) 
 {
     #enlaces{
-        width: 95%;
         min-width: 500px;
     }
 
