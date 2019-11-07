@@ -161,3 +161,39 @@
         width: 95%;
     }
 }
+
+/* @media only screen and (max-width: 480px)
+{
+    .sm-0
+    {
+        display: none;
+    }
+
+    .sm-4
+    {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (min-width: 481px)
+{
+    .med-2
+    {
+        width: 50%;
+    }
+}
+
+
+@media only screen and (min-width: 1024px)
+{
+    .lg-1
+    {
+        width: 25%
+    }
+
+    .lg-3
+    {
+        width: 75%;
+    }
+} */
