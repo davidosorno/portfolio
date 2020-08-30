@@ -1,5 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
 /* You can add global styles to this file, and also import other style files */
+.menu-btn {
+  position: absolute;
+  z-index: 3;
+  right: 35px;
+  top: 35px;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+.menu-btn .btn-line {
+  width: 28px;
+  height: 3px;
+  margin: 0 0 5px 0;
+  background: #fff;
+  transition: all 0.5s ease-out;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -13,7 +29,7 @@ body {
   line-height: 1.5;
 }
 body#bg-img {
-  background: url(/img/background2.jpg);
+  background: url(../img/background2.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
