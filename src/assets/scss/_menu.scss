@@ -1,5 +1,3 @@
-@import 'config';
-
 // Right menu
 .menu-btn {
   position: absolute;
@@ -94,7 +92,7 @@
       height: 250px;
       background: url('../img/small-aboutme.jpg');
       border-radius: 50%;
-      border: solid 3px $secondary-color;
+      @include borderColor;
     }
   }
 

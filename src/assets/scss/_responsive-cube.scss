@@ -1,0 +1,38 @@
+@include mediaMd {
+  .container {
+    &-cube {
+      width: 160px;
+      height: 160px;
+
+      &:hover {
+        transform: rotateX(90deg) rotateY(270deg) rotateZ(90deg);
+      }
+
+      .box {
+        &:nth-child(1) {
+          transform: rotateY(90deg) translateX(-80px);
+        }
+
+        &:nth-child(2) {
+          transform: rotateY(-90deg) translateX(80px);
+        }
+
+        &:nth-child(3) {
+          transform: rotateX(-90deg) translateY(-80px);
+        }
+
+        &:nth-child(4) {
+          transform: rotateX(90deg) translateY(80px);
+        }
+
+        &:nth-child(5) {
+          transform: translateZ(-80px);
+        }
+
+        &:nth-child(6) {
+          transform: translateZ(80px);
+        }
+      }
+    }
+  }
+}

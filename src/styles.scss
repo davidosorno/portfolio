@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files *//* You can add global styles to this file, and also import other style files */
 @import 'assets/scss/config'; 
 @import 'assets/scss/menu';
+@import 'assets/scss/responsive';
+@import 'assets/scss/cube-images';
+@import 'assets/scss/responsive-cube';
+
 
 * {
   box-sizing: border-box;
@@ -9,6 +13,7 @@
 body {
   @include background;
 
+  overflow: hidden;
   background: $primary-color;
   color: #fff;
   height: 100%;
@@ -65,14 +70,14 @@ header {
 }
 
 main {
-  padding: 4rem;
+  padding: 3rem;
   height: 100%;
 
   .icons {
     margin-top: 1rem;
-
+    margin-left: 1rem;
     a {
-      padding: 0.4rem;
+      padding: 0.6rem;
 
       &:hover {
         color: $secondary-color;

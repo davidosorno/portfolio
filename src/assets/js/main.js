@@ -1,6 +1,6 @@
 // Select DOM items
 
-function gettingDomItems(){
+function gettingDomItems() {
 
     const menuBtn = document.querySelector('.menu-btn');
 
@@ -14,6 +14,9 @@ function gettingDomItems(){
     let showMenu = false;
 
     menuBtn.addEventListener('click', toggleMenu);
+
+    // Add Evenlistener to the each item menu for closing the menu
+    navItems.forEach(item => item.addEventListener('click', toggleMenu));
 
     function toggleMenu() {
         if (!showMenu) {
