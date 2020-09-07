@@ -1,11 +1,10 @@
 const projects = {
-    0: "qyq",
-    1: "",
-    2: "",
-    3: "",
-    4: "",
-    5: "",
-    6: ""
+    "qyq": "",
+    "arvd": "",
+    "pacman": "",
+    "pacmm": "",
+    "wall": "",
+    "admin": ""
 }
 
 function initSwiper() {

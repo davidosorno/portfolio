@@ -23,9 +23,6 @@
 .details-description {
   display: inline-block;
   vertical-align: top;
-  width: 50%;
-  height: 40vh;
-  margin-left: 5px;
   padding: 5px;
 }
 
@@ -45,7 +42,7 @@
     .img-project {
       width: 25vh;
       height: 35vh;
-      transition: all 0.5s;
+      @include easeOut;
       opacity: 1;
       display: flex;
       background-size: cover;
