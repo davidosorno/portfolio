@@ -17,7 +17,7 @@ function loadCubeImages() {
         for (let j = 0; j < 6; j++) {
             var divPictureHobbie = document.createElement("div");
             divPictureHobbie.className = "picture-cube";
-            var nameImg = "url(../../assets/img/aboutme/aboutme" + j + ".jpg)";
+            var nameImg = "url(assets/img/aboutme/aboutme" + j + ".jpg)";
             divPictureHobbie.style.backgroundImage = nameImg;
             divPictureHobbie.style.backgroundColor = "gray";
             divHobbie.appendChild(divPictureHobbie);
