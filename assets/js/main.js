@@ -37,4 +37,7 @@ function gettingDomItems() {
             showMenu = false;
         }
     }
+
+    // Preload images
+    preLoadImg();
 }

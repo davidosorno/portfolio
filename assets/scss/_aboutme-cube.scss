@@ -14,8 +14,6 @@
   &-cube {
     display: inline-block;
     vertical-align: top;
-    width: 300px;
-    height: 300px;
     position: relative;
     transition: all ease-out 20s;
     transform-style: preserve-3d;
@@ -44,32 +42,32 @@
 
       &:nth-child(1) {
         background-image: url(../../assets/img/aboutme/aboutme0.jpg);
-        @include transformValues(left,  rotateY(90deg) translateX(-150px));
+        // @include transformValues(left,  rotateY(90deg) translateX(-150px));
       }
 
       &:nth-child(2) {
         background-image: url(../../assets/img/aboutme/aboutme1.jpg);
-        @include transformValues(right,  rotateY(-90deg) translateX(150px));
+        // @include transformValues(right,  rotateY(-90deg) translateX(150px));
       }
 
       &:nth-child(3) {
         background-image: url(../../assets/img/aboutme/aboutme2.jpg);
-        @include transformValues(top,  rotateX(-90deg) translateY(-150px));
+        // @include transformValues(top,  rotateX(-90deg) translateY(-150px));
       }
 
       &:nth-child(4) {
         background-image: url(../../assets/img/aboutme/aboutme3.jpg);
-        @include transformValues(bottom,  rotateX(90deg) translateY(150px));
+        // @include transformValues(bottom,  rotateX(90deg) translateY(150px));
       }
 
       &:nth-child(5) {
         background-image: url(../../assets/img/aboutme/aboutme4.jpg);
-        @include transformValues(bottom,  translateZ(-150px));
+        // @include transformValues(bottom,  translateZ(-150px));
       }
 
       &:nth-child(6) {
         background-image: url(../../assets/img/aboutme/aboutme5.jpg);
-        @include transformValues(left,  translateZ(150px));
+        // @include transformValues(left,  translateZ(150px));
       }
     }
   }
