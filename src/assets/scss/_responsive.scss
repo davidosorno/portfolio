@@ -1,12 +1,16 @@
 // Widescreen 
 @include mediaXL {
-  overflow: hidden;
+  body {
+    overflow: hidden;
+  }
 }
 
 
 // Desktops & Laptops 
 @include mediaLg {
-  overflow: hidden;
+  body {
+    overflow: hidden;
+  }
 }
 
 
