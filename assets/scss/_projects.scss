@@ -2,8 +2,6 @@
   &-container {
     display: inline-block;
     vertical-align: top;
-    width: 40%;
-    height: 45vh;
     padding-top: 10px;
     padding-bottom: 10px;
     top: 10px;
@@ -11,8 +9,6 @@
   }
 
   &-slide {
-    width: 40vh;
-    height: 37vh;
     border-radius: 10px;
     background-position: center;
     background-size: contain;
@@ -20,28 +16,20 @@
   }
 }
 
-.details-description {
+.details {
   display: inline-block;
   vertical-align: top;
   padding: 5px;
-}
 
-.details {
-  width: 100%;
-  height: 40vh;
-  display: inline-block;
-  vertical-align: top;
 
   &-img {
     width: 100%;
-    height: 55vh;
+    height: 100%;
     display: inline-block;
     vertical-align: top;
     text-align: center;
 
     .img-project {
-      width: 25vh;
-      height: 35vh;
       @include easeOut;
       opacity: 1;
       display: flex;
@@ -55,17 +43,14 @@
   }
 
   &-technologies {
-    display: inline-block;
-    vertical-align: top;
-    width: 15%;
-    height: 100%;
-    border: 2px solid yellow;
+    width: 100%;
+    height: 30%;
 
     .logo-tech {
       // display: inline;
       width: 100%;
       height: auto;
-      border: 2px solid green;
+      border: 2px solid yellow;
     }
   }
 }
