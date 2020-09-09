@@ -32,7 +32,7 @@
             ],
             "scripts": [
               "src/assets/js/main.js",
-              "src/assets/js/utilities.js"
+              "src/assets/js/projects.js"
             ]
           },
           "configurations": {

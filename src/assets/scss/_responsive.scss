@@ -50,11 +50,38 @@ body {
 
 
 // Projects
-.details-description {
+
+.swiper {
+  &-container {
+    width: 40%;
+    height: 65vh;
+  }
+
+  &-slide {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+.details {
   font-size: 20px;
   width: 50%;
   height: 40vh;
   margin-left: 15px;
+
+  p{
+    height: 150px;
+    max-height: 150px;
+  }
+}
+
+.img-project {
+  width: 20vh;
+  height: 30vh;
+}
+
+.container {
+  margin-bottom: -100px;
 }
 
 
@@ -119,8 +146,6 @@ body {
 
   // Aboutme
   .container {
-    margin-bottom: 10px;
-
     .left {
       width: 100%;
       margin-top: -120px;
@@ -134,6 +159,7 @@ body {
       margin-top: -20px;
       width: 200px;
       height: 200px;
+      margin-bottom: 150px;
 
       .box {
 
@@ -164,23 +190,42 @@ body {
       }
     }
   }
-
-
-  // Projecs
-  .details-description {
-    font-size: 14px;
-    width: 45%;
-    height: 40vh;
-  }
-
 }
 
 
 // Smartphones
 @include mediaSm {
+
   main#home {
     h1 {
       margin-top: 10vh;
     }
+  }
+
+
+
+
+  // Projecs
+
+  .swiper {
+    &-container {
+      width: 90%;
+      height: 200px;
+    }
+
+    &-slide {
+      width: 50%;
+      height: 100%;
+    }
+  }
+
+  .details {
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .img-project {
+    width: 20vh;
+    height: 30vh;
   }
 }

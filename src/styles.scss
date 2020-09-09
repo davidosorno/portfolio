@@ -93,3 +93,16 @@ main {
     }
   }
 }
+
+#main-footer {
+  text-align: center;
+  background: darken($primary-color, 10);
+  color: #fff;
+  height: 20px;
+  position: fixed;
+  bottom: 0;
+  padding: 2px;
+  font-size: 11px;
+  width: 100%;
+  letter-spacing: 3px;
+}
