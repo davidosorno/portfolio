@@ -1,8 +1,8 @@
 const projects = {
     0: "aboutme/aboutme",
-    1: "projects/qyq",
-    2: "projects/regulations",
-    3: "projects/arvd",
+    1: "projects/arvd",
+    2: "projects/qyq",
+    3: "projects/regulations",
     4: "projects/pacman",
     5: "projects/pacmm",
     6: "projects/wall",
@@ -23,7 +23,7 @@ const descProjects = {
 
     "pacman": "Pac Man is an old brand game known for most people and I decided to create a different version of the game. It allows you to get coins while hunters try to catch you and sometime you can eat cherries and increase your score. I also change a little bit the hunters utilizing ghost instead, and as they are ghost they can go throuhg the walls. It has a random world every time you start. I made it using HTML, CSS and Javascript.",
 
-    "pacmm": "I decided to challenge my self, so I built a Multiplayer Pac Man. It allows up to four players at the same time and you can see how your friends are doing. Also, You can chat with them in a small text box below the game, see everyones's score and also see who is winning on the right of the screen. For development of multiplayer Pac Man I worked with Node.js' built-in Socket technology that allows direct communication between connected systems.",
+    "pacmm": "I decided to challenge myself, so I built a Multiplayer Pac Man. It allows up to four players at the same time and you can see how your friends are doing. Also, You can chat with them in a small text box below the game, see everyones's score and also see who is winning on the right of the screen. For development of multiplayer Pac Man I worked with Node.js' built-in Socket technology that allows direct communication between connected systems.",
 
     "wall": "The Wall is a website where you can post whatever topic you like and start chatting with other people. Before you start a topic or leave a comment you must register with an unique email. It is a good way to learn about new topics, or share ideas, or make friends or simply have a good reading about something you like. The knowledge should be shared!",
 
@@ -97,7 +97,7 @@ function initSwiper() {
         var img = element.wrapperEl.children[element.activeIndex];
         detailsProject(img.id);
     });
-    detailsProject('qyq');
+    detailsProject('arvd');
 }
 
 function detailsProject(nameProject) {

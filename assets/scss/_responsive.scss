@@ -70,8 +70,7 @@ body {
   margin-left: 15px;
 
   p{
-    height: 150px;
-    max-height: 150px;
+    height: auto;
     font-size: 2.5vh;
   }
 }
@@ -79,6 +78,7 @@ body {
 .img-project {
   width: 20vh;
   height: 30vh;
+  margin: 10px;
 }
 
 .container {
@@ -187,9 +187,15 @@ body {
         &:nth-child(6) {
           @include transformValues(left, translateZ(100px));
         }
-
       }
     }
+  }
+
+  // Projects
+
+  .img-project{
+    margin-right: 50px;
+    margin-top: 20px;
   }
 }
 
