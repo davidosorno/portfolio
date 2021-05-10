@@ -21,7 +21,7 @@
     "@angular/router": "~10.0.11",
     "elliptic": "^6.5.3",
     "kind-of": "^6.0.3",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "node-sass": "^4.14.1",
     "npm-registry-fetch": "^8.1.4",
     "npx": "^10.2.2",
