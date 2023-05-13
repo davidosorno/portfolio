@@ -1,11 +1,15 @@
+body{
+  overflow-y: auto;
+}
+
 .swiper {
   &-container {
-    display: inline-block;
-    vertical-align: top;
+    position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
-    top: 10px;
-    left: 10px;
+    top: -200px;
+    left: 40%;
+    height: 450px;
   }
 
   &-slide {
@@ -17,16 +21,12 @@
 }
 
 .details {
-  display: inline-block;
-  vertical-align: top;
+  display: block;
   padding: 5px;
-
 
   &-img {
     width: 100%;
     height: 100%;
-    display: inline-block;
-    vertical-align: top;
     text-align: center;
 
     .img-project {
@@ -53,4 +53,9 @@
       border: 2px solid yellow;
     }
   }
+}
+
+.swiper-pagination{
+  position: relative;
+  top: 20px;
 }
