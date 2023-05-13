@@ -1,0 +1,239 @@
+// Default values
+
+body {
+  overflow: hidden;
+}
+
+
+// Aboutme
+.left {
+  margin-top: -80px;
+
+  p {
+    max-width: 400px;
+  }
+}
+
+.container-cube {
+  margin-top: 200px;
+  width: 300px;
+  height: 300px;
+
+  .box {
+
+    &:nth-child(1) {
+      @include transformValues(left, rotateY(90deg) translateX(-150px));
+    }
+
+    &:nth-child(2) {
+      @include transformValues(right, rotateY(-90deg) translateX(150px));
+    }
+
+    &:nth-child(3) {
+      @include transformValues(top, rotateX(-90deg) translateY(-150px));
+    }
+
+    &:nth-child(4) {
+      @include transformValues(bottom, rotateX(90deg) translateY(150px));
+    }
+
+    &:nth-child(5) {
+      @include transformValues(bottom, translateZ(-150px));
+    }
+
+    &:nth-child(6) {
+      @include transformValues(left, translateZ(150px));
+    }
+
+  }
+}
+
+
+// Projects
+
+.swiper {
+  &-container {
+    width: 40%;
+    height: 65vh;
+  }
+
+  &-slide {
+    width: 50%;
+    height: 100%;
+  }
+}
+
+.details {
+  font-size: 20px;
+  // width: 50%;
+  margin-top: -220px;
+  height: 40vh;
+  margin-left: 15px;
+
+  p{
+    height: auto;
+    font-size: 2.5vh;
+  }
+}
+
+.img-project {
+  width: 20vh;
+  height: 30vh;
+  margin: 10px;
+}
+
+.container {
+  margin-bottom: -100px;
+}
+
+
+
+// Widescreen 
+@include mediaXL {}
+
+
+// Desktops & Laptops 
+@include mediaLg {}
+
+
+// Tablets and Small Laptops 
+@include mediaMd {
+
+  body {
+    overflow-y: scroll;
+  }
+
+  // Menu
+  main {
+    align-items: center;
+    text-align: center;
+
+    .lg-heading {
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+  }
+
+  ul.menu-nav,
+  div.menu-branding {
+    float: none;
+    width: 100%;
+    min-height: 0;
+
+    &.show {
+      transform: translate3d(0, 0, 0);
+    }
+  }
+
+  .menu-nav {
+    height: 75vh;
+    transform: translate3d(-100%, 0, 0);
+    font-size: 24px;
+  }
+
+  .menu-branding {
+    height: 25vh;
+    transform: translate3d(100%, 0, 0);
+
+    .portrait {
+      background: url('../img/aboutme.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 150px;
+      height: 150px;
+    }
+  }
+
+
+  // Aboutme
+  .container {
+    .left {
+      width: 100%;
+      margin-top: -120px;
+
+      p {
+        min-width: 200px;
+      }
+    }
+
+    &-cube {
+      margin-top: -20px;
+      width: 200px;
+      height: 200px;
+      margin-bottom: 150px;
+
+      .box {
+
+        &:nth-child(1) {
+          @include transformValues(left, rotateY(90deg) translateX(-100px));
+        }
+
+        &:nth-child(2) {
+          @include transformValues(right, rotateY(-90deg) translateX(100px));
+        }
+
+        &:nth-child(3) {
+          @include transformValues(top, rotateX(-90deg) translateY(-100px));
+        }
+
+        &:nth-child(4) {
+          @include transformValues(bottom, rotateX(90deg) translateY(100px));
+        }
+
+        &:nth-child(5) {
+          @include transformValues(bottom, translateZ(-100px));
+        }
+
+        &:nth-child(6) {
+          @include transformValues(left, translateZ(100px));
+        }
+      }
+    }
+  }
+
+  // Projects
+
+  .img-project{
+    margin-right: 50px;
+    margin-top: 20px;
+  }
+}
+
+
+// Smartphones
+@include mediaSm {
+
+  main#home {
+    h1 {
+      margin-top: 10vh;
+    }
+  }
+
+
+
+
+  // Projecs
+
+  .swiper {
+    &-container {
+      width: 90%;
+      height: 200px;
+    }
+
+    &-slide {
+      width: 50%;
+      height: 100%;
+    }
+  }
+
+  .details {
+    font-size: 14px;
+    width: 90%;
+  }
+
+  .img-project {
+    width: 20vh;
+    height: 30vh;
+  }
+}
